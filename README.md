@@ -74,12 +74,3 @@ The full workflow includes geospatial aggregation, CNN feature extraction, and n
 The final analysis used Python 3.10.13 and random seed 42. Random validation used five folds. Spatial validation used four KMeans blocks generated from grid centroids, with one block withheld at a time. Hyperparameters were selected inside each outer training fold.
 
 The raw electricity data are controlled-access records and are not included. Other large source files are also omitted. The required sources, versions, filenames, and preparation steps are listed in [data/README.md](data/README.md). Aggregate outputs from the reported run are provided under `results/reference/` so that the reported tables can be checked without exposing row-level electricity records.
-
-## Important implementation notes
-
-- The repository copies use portable paths; the original notebooks are unchanged.
-- Notebook outputs and execution counts are cleared to remove local paths and row-level data.
-- The handoff between notebooks 00 and 01 has been standardised as `work/grid_size_selection/`.
-- The final CNN experiment uses frozen ImageNet ResNet50 features. The older MLP fusion experiment is not part of the final dissertation workflow and is not included.
-- The `results/reference/` files are evidence from the completed run. New executions write to `work/` and do not overwrite them.
-
