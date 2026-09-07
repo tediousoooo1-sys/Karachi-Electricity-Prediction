@@ -1,0 +1,37 @@
+feature,family
+area_m2,Exposure / grid area
+B02_mean,Sentinel-2
+B02_std,Sentinel-2
+B02_max,Sentinel-2
+B03_mean,Sentinel-2
+B03_std,Sentinel-2
+B03_max,Sentinel-2
+B04_mean,Sentinel-2
+B04_std,Sentinel-2
+B04_max,Sentinel-2
+B08_mean,Sentinel-2
+B08_std,Sentinel-2
+B08_max,Sentinel-2
+B11_mean,Sentinel-2
+B11_std,Sentinel-2
+B11_max,Sentinel-2
+NDVI,Sentinel-2
+NDBI,Sentinel-2
+NTL_mean,VIIRS nighttime lights
+NTL_max,VIIRS nighttime lights
+dist_major_road,Road network
+road_count,Road network
+road_length_major,Road network
+road_density,Road network
+major_road_ratio,Road network
+poi_economic_count,POI
+poi_social_count,POI
+poi_other_count,POI
+poi_shannon,POI
+dist_economic_poi,POI
+dist_social_poi,POI
+pop_density_km2,WorldPop
+building_count,Building morphology
+building_area_mean,Building morphology
+building_area_std,Building morphology
+building_coverage,Building morphology

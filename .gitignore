@@ -1,0 +1,28 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Source data and generated intermediate files
+data/raw/
+work/
+build/
+
+# Common large and sensitive data formats
+*.gpkg
+*.gdb/
+*.tif
+*.tiff
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+
+# Keep only reviewed aggregate CSV files already committed under results/reference
+data/**/*.csv.gz
+

@@ -1,0 +1,14 @@
+{
+  "place_name": "Karachi, Pakistan",
+  "snapshot_date": "2020-03-31",
+  "snapshot_timestamp_utc": "2020-03-31T23:59:59Z",
+  "projected_crs": "EPSG:32642",
+  "osmnx_version": "2.0.7",
+  "query_tiles": 11,
+  "road_features": 61659,
+  "poi_features_before_reclassification": 20358,
+  "poi_features_after_reclassification": 20358,
+  "output_geopackage": "road/Karachi_Spatial_Data.gpkg",
+  "output_poi_csv": "road/Karachi_Spatial_Data_csv/pois.csv",
+  "output_reclassified_poi_csv": "road/Karachi_Spatial_Data_csv/pois_new.csv"
+}

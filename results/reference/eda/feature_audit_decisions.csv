@@ -1,0 +1,7 @@
+feature,decision,reason
+brightness,drop,Deterministic aggregate of retained Sentinel mean bands.
+poi_total_count,drop,Deterministic sum of retained POI category counts.
+pop_total,drop,Redundant with population density and effective grid area.
+road_length_total,drop,Redundant with road density and effective grid area.
+building_area_total,drop,Redundant with building coverage and effective grid area.
+NTL_std,drop,Highly zero-inflated / low-information NTL summary; retain NTL_mean and NTL_max.

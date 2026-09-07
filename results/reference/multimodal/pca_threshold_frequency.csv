@@ -1,0 +1,7 @@
+validation,selected_pca_variance,n_outer_folds,mean_components,mean_outer_R2
+random_5fold,0.7,4,36.25,0.6820261731962844
+random_5fold,0.75,1,54.0,0.5847574514641358
+spatial_kmeans_leave_one_out,0.7,1,35.0,0.21773322770539194
+spatial_kmeans_leave_one_out,0.75,1,55.0,0.41864799086057003
+spatial_kmeans_leave_one_out,0.85,1,114.0,-0.44209098818371495
+spatial_kmeans_leave_one_out,0.9,1,192.0,0.34832892420274375
