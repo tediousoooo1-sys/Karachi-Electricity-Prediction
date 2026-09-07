@@ -25,7 +25,4 @@ No raw or row-level electricity records are included. Notebook outputs were clea
 
 `results/reference/manifest.csv` records the original relative path and SHA-256 checksum of every copied reference output. `docs/notebook_manifest.csv` records the checksum of each source notebook and its cleaned repository copy.
 
-## Known interface correction
-
-The completed grid-resolution notebook originally wrote to a folder named `grid_size_screening_42`, while the next notebook read from `grid_size_selection`. Both folders existed in the working project, so this mismatch was hidden during interactive work. The repository copy standardises the handoff as `work/grid_size_selection`. This is a path correction only; it does not alter the analysis or reported values.
 
