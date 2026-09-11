@@ -1,8 +1,8 @@
 # Assessing Open Geospatial Data for Grid-Level Electricity Prediction in Karachi
 
-This repository contains the computational workflow for an MSc dissertation on residential electricity prediction in Karachi. It tests how far open geospatial data can support reliable prediction at a 500 m grid resolution.
+This repository contains the computational workflow for an MSc Extended Research Project on residential electricity prediction in Karachi. It tests how far open geospatial data can support reliable prediction at grid-level resolution.
 
-The analysis combines household electricity records with Sentinel-2 imagery, VIIRS nighttime lights, WorldPop population estimates, OpenStreetMap roads and points of interest, and Google Open Buildings. It compares grid resolutions and model families, audits the engineered predictors, evaluates remote-sensing and urban spatial feature groups, tests frozen ResNet50 representations, and examines performance under random and spatial cross-validation.
+The analysis combines household electricity records with Sentinel-2 imagery, VIIRS nighttime lights, WorldPop population, OpenStreetMap roads and points of interest, and Google Open Buildings. It compares grid resolutions and model families, audits the engineered predictors, evaluates remote-sensing and urban spatial feature groups, tests frozen ResNet50 representations, and examines performance under random and spatial cross-validation.
 
 ## Repository structure
 
@@ -73,4 +73,4 @@ The full workflow includes geospatial aggregation, CNN feature extraction, and n
 
 The final analysis used Python 3.10.13 and random seed 42. Random validation used five folds. Spatial validation used four KMeans blocks generated from grid centroids, with one block withheld at a time. Hyperparameters were selected inside each outer training fold.
 
-The raw electricity data are controlled-access records and are not included. Other large source files are also omitted. The required sources, versions, filenames, and preparation steps are listed in [data/README.md](data/README.md). Aggregate outputs from the reported run are provided under `results/reference/` so that the reported tables can be checked without exposing row-level electricity records.
+The raw electricity data are controlled-access records and are not included. Other large source files are also omitted. The required sources, versions, filenames, and preparation steps are listed in [data/README.md](data/README.md). Aggregate outputs from the reported run are provided under `results/reference/`.
