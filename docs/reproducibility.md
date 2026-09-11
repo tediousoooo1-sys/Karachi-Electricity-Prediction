@@ -2,7 +2,7 @@
 
 ## Scope
 
-The six notebooks reproduce the analyses reported in the dissertation. They do not include unrelated preliminary models. Each notebook has one role and writes named outputs for the next stage.
+The six notebooks reproduce the analyses reported in the report. Each notebook has one role and writes named outputs for the next stage.
 
 | Stage | Notebook | Main output |
 |---|---|---|
